@@ -1,0 +1,182 @@
+#bold {
+	text-align: center;
+	font-weight: bold;
+	padding: 50px 0px 50px 0px;
+	font-size: calc(13px + 0.390625vw);
+}
+
+#italic {
+	text-align: center;
+	font-style: italic;
+	padding: 0px 0px 50px 0px;
+	font-size: calc(13px + 0.390625vw);
+}
+
+#points-left {
+	text-align: left;
+	border-radius: 100px;
+	box-shadow: 3px 3px 10px #000000;
+	padding: 50px 50px 50px 50px;
+	background: linear-gradient(-90deg, transparent, #43b3ae);
+}
+
+#points-right {
+	text-align: right;
+	border-radius: 100px;
+	box-shadow: 3px 3px 10px #000000;
+	padding: 50px 50px 50px 50px;
+	background: linear-gradient(90deg, transparent, #43b3ae);
+}
+
+.top {
+	position: fixed;
+	bottom: 20px;
+	padding: 10px 10px 10px 12px;
+	background: #43b3ae;
+	border-radius: 100px;
+	font-size: calc(13px + 0.390625vw);
+	box-shadow: 3px 3px 10px #000000;
+	padding: 8px 13px 10px 14px;
+	right: 20px;
+	bottom: 25px;
+}
+
+@media (min-width: 1000px) {
+	iframe {
+		width: 50%;
+		aspect-ratio: 16/9;
+	}	
+}
+
+@media (max-width: 999px) {
+	iframe {
+		width: 100%;
+		aspect-ratio: 16/9;
+	}	
+}
+
+img {
+	text-align: center;
+	box-shadow: 3px 3px 10px #000000;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	text-align: left;
+	margin: 0px 0px 40px 0px;
+}
+
+nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: calc(13px + 0.390625vw);
+	text-shadow: 3px 3px 5px #3b3b3b;
+}
+
+.video {
+	margin: 70px 0px 7px 0px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+main {
+	background-color: #0a7e8c;
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+	margin: 80px 80px 80px 80px;
+	border-radius: 50px;
+  	box-shadow: 3px 3px 10px #000000;
+	line-height: 1.3;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: 'Somebody Else';
+	src: url('fonts/Somebody_Else.otf');
+	font-style: normal;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Somebody Else', Arial, fantasy;
+	font-size: calc(40px + 0.390625vw);
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 80px 0px 50px 0px;
+}
+
+h1 {
+	font-family: 'Somebody Else', Arial, fantasy;
+	font-size: calc(40px + 0.390625vw);
+	color: #FFFFFF;
+	text-align: center;
+	margin: 50px 50px 50px 50px;
+}
+
+nav {
+	background-color: #0a7e8c;
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	border-radius: 50px;
+  	box-shadow: 3px 3px 10px #000000;
+	line-height: 2;
+	width: 20em;
+	white-space: pre-line;
+}
+
+header img {
+	border-radius: 250px;
+  	box-shadow: 3px 3px 10px #000000;
+  	max-width: 100%;
+	padding: 30px 30px 30px 30px;
+}
+
+header{
+	margin: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer {
+	font-family: 'Somebody_Else', fantasy;
+	letter-spacing: 5px;
+	font-weight: 900;
+	font-size: calc(20px + 0.390625vw);
+	text-align: center;
+	bottom: 0%;
+	color: #0a7e8c;
+	width: 75%;
+	margin: 30px auto auto auto;
+	padding: 30px 30px 30px 30px;
+}
+
+body {
+	font-family: Arial, fantasy;
+	background: #1d2724;
+	scroll-behavior: smooth;
+}
+
+/* Changing page restrictions to fit with A4 printing (as the grid and section/aside struggle with printing) */
+
+@page {
+	size: A4;
+	margin: 0;
+}
+
+@media print {
+  html, body {
+	width: 210mm;
+	height: 297mm;
+}}
