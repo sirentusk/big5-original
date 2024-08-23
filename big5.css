@@ -12,6 +12,15 @@
 	font-size: calc(13px + 0.390625vw);
 }
 
+.aspect {
+	width: 500px;
+	margin: 60px auto;
+	color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	
+}
+
 #points-left {
 	text-align: left;
 	border-radius: 100px;
