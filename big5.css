@@ -334,15 +334,6 @@ p {
 	margin: 0px 0px 40px 0px;
 }
 
-nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
-	text-decoration: none;
-	color: #FFFFFF;
-	letter-spacing: 2px;
-	font-weight: 600;
-	font-size: calc(13px + 0.390625vw);
-	text-shadow: 3px 3px 5px #3b3b3b;
-}
-
 .video {
 	margin: 70px 0px 7px 0px;
 	position: relative;
@@ -385,18 +376,6 @@ h1 {
 	margin: 50px 50px 50px 50px;
 }
 
-nav {
-	background-color: #0a7e8c;
-	text-align: center;
-	padding: 10px 30px 30px 30px;
-	margin: 0 auto;
-	margin-bottom: 60px;
-	border-radius: 50px;
-  	box-shadow: 3px 3px 10px #000000;
-	line-height: 2;
-	width: 20em;
-	white-space: pre-line;
-}
 
 header img {
 	border-radius: 250px;
