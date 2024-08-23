@@ -1,3 +1,22 @@
+body {
+	font-family: Arial, fantasy;
+	background: #1d2724;
+	scroll-behavior: smooth;
+}
+
+.aspect {
+	width: 500px;
+	margin: 60px auto;
+	color: #ffffff;
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
 #bold {
 	text-align: center;
 	font-weight: bold;
@@ -10,15 +29,6 @@
 	font-style: italic;
 	padding: 0px 0px 50px 0px;
 	font-size: calc(13px + 0.390625vw);
-}
-
-.aspect {
-	width: 500px;
-	margin: 60px auto;
-	color: #ffffff;
-	padding: 20px;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-	
 }
 
 #points-left {
@@ -170,14 +180,6 @@ footer {
 	margin: 30px auto auto auto;
 	padding: 30px 30px 30px 30px;
 }
-
-body {
-	font-family: Arial, fantasy;
-	background: #1d2724;
-	scroll-behavior: smooth;
-}
-
-/* Changing page restrictions to fit with A4 printing (as the grid and section/aside struggle with printing) */
 
 @page {
 	size: A4;
