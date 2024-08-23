@@ -1,270 +1,3 @@
-* {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-body {
-	font-family: Arial, fantasy;
-	background: #1d2724;
-	scroll-behavior: smooth;
-}
-
-.h5 {
-	margin: 5px;
-}
-
-.aspect {
-	width: 500px;
-	margin: 60px auto;
-	color: #ffffff;
-	padding: 20px;
-	border-radius: 50px;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.aspect li {
-	margin: 20px 0;
-	padding: 10px;
-}
-
-.bar1, .bar2 {
-	background: #353b48;
-	display: block;
-	height: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.3);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.bar1:hover, .bar2:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.bar1 span {
-	height: 20px;
-	float: left;
-	background: linear-gradient(135deg, rgba(3, 40, 45, 1)0%, rgba(10, 126, 140, 1)100%);
-}
-
-.bar2 span {
-	height: 20px;
-	float: left;
-	background: linear-gradient(135deg, rgba(40, 45, 3, 1)0%, rgba(126, 140, 10, 1)100%);
-}
-
-.conscientiousness {
-	width: 63%;
-	animation: conscientiousness 3s;
-}
-
-@keyframes conscientiousness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 63%;
-	}
-}
-
-.industriousness {
-	width: 88%;
-	animation: industriousness 3s;
-}
-
-@keyframes industriousness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 88%;
-	}
-}
-
-.orderliness {
-	width: 25%;
-	animation: orderliness 3s;
-}
-
-@keyframes orderliness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 25%;
-	}
-}
-
-.openness {
-	width: 94%;
-	animation: openness 3s;
-}
-
-@keyframes openness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 94%;
-	}
-}
-
-.intellect {
-	width: 94%;
-	animation: intellect 3s;
-}
-
-@keyframes intellect {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 94%;
-	}
-}
-
-.aesthetics {
-	width: 84%;
-	animation: aesthetics 3s;
-}
-
-@keyframes aesthetics {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 84%;
-	}
-}
-
-.extraversion {
-	width: 89%;
-	animation: extraversion 3s;
-}
-
-@keyframes extraversion {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 89%;
-	}
-}
-
-.assertiveness {
-	width: 99%;
-	animation: assertiveness 3s;
-}
-
-@keyframes assertiveness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 99%;
-	}
-}
-
-.enthusiasm {
-	width: 36%;
-	animation: enthusiasm 3s;
-}
-
-@keyframes enthusiasm {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 36%;
-	}
-}
-
-.agreeableness {
-	width: 20%;
-	animation: agreeableness 3s;
-}
-
-@keyframes agreeableness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 20%;
-	}
-}
-
-.compassion {
-	width: 48%;
-	animation: compassion 3s;
-}
-
-@keyframes compassion {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 48%;
-	}
-}
-
-.politeness {
-	width: 7%;
-	animation: politeness 3s;
-}
-
-@keyframes politeness {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 7%;
-	}
-}
-
-.neuroticism {
-	width: 64%;
-	animation: neuroticism 3s;
-}
-
-@keyframes neuroticism {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 64%;
-	}
-}
-
-.volatility {
-	width: 86%;
-	animation: volatility 3s;
-}
-
-@keyframes volatility {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 86%;
-	}
-}
-
-.withdrawal {
-	width: 31%;
-	animation: withdrawal 3s;
-}
-
-@keyframes withdrawal {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 31%;
-	}
-}
-
 #bold {
 	text-align: center;
 	font-weight: bold;
@@ -334,6 +67,15 @@ p {
 	margin: 0px 0px 40px 0px;
 }
 
+nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: calc(13px + 0.390625vw);
+	text-shadow: 3px 3px 5px #3b3b3b;
+}
+
 .video {
 	margin: 70px 0px 7px 0px;
 	position: relative;
@@ -359,7 +101,7 @@ main {
 	font-style: normal;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
 	font-family: 'Somebody Else', Arial, fantasy;
 	font-size: calc(40px + 0.390625vw);
 	color: #FFFFFF;
@@ -376,6 +118,18 @@ h1 {
 	margin: 50px 50px 50px 50px;
 }
 
+nav {
+	background-color: #0a7e8c;
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	border-radius: 50px;
+  	box-shadow: 3px 3px 10px #000000;
+	line-height: 2;
+	width: 20em;
+	white-space: pre-line;
+}
 
 header img {
 	border-radius: 250px;
@@ -407,6 +161,14 @@ footer {
 	margin: 30px auto auto auto;
 	padding: 30px 30px 30px 30px;
 }
+
+body {
+	font-family: Arial, fantasy;
+	background: #1d2724;
+	scroll-behavior: smooth;
+}
+
+/* Changing page restrictions to fit with A4 printing (as the grid and section/aside struggle with printing) */
 
 @page {
 	size: A4;
